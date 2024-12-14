@@ -5,7 +5,7 @@ export default function Travel(country) {
         <div className="place-info">
             <h2>{country.country}</h2>
             <p className="country-info">{country.description}</p>
-            <a href={country.wiki}>Learn more</a>
+            <a href={country.wikipedia} target="_blank" rel="noopener noreferrer">Learn more</a>
         </div>
         </article>
     )
