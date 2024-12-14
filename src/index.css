@@ -195,4 +195,43 @@ img.profile-pic {
   margin-bottom: 15px; /* Adds space below the image */
 }
 
+.Travel {
+  display: flex;
+  flex-direction: row; /* Stack content vertically */
+  align-items: center; /* Center the image and text */
+  justify-content: center; /* Center content inside the article */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+  max-width: 500px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.Travel:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transform: translateY(-2px) scale(1.06); /* Apply both translateY and scale effects */
+}
+
+.country-info {
+  padding: 20px;
+  font-size: small;
+}
+
+.country-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Four equal columns */
+  gap: 50px; /* Space between grid items */
+  max-width: 1200px; /* Restrict maximum grid width */
+  margin: 0 auto; /* Center the grid */
+  padding: 10px; /* Add padding for spacing */
+  box-sizing: border-box;
+}
+
+img.place {
+  width: 225px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
 

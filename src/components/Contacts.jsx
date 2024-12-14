@@ -3,7 +3,7 @@ import React from "react";
 export default function Contacts(info) {
     console.log(info)
     return (
-        <article>
+        <article className="Contacts">
             <img className="profile-pic" src={info.img} alt="profile-pic" />
             <div className="window">
                 <h2>{info.name}</h2>
