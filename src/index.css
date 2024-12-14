@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #64c1ff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #53aaf2;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+header {
+  background-color: #2A628F;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.location {
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.number > img {
+  margin-top: 4px;
+  padding-right: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.window {
+  width: 100%;
+  height: max-content;
+  background-color: #99ccea;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+article > img {
+  border-radius: 10px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: #2b2b2b;
+}
+
+.marker {
+  width: 16px;
+  height: 16px;
+}
+
+.location a {
+  color: #f55a5a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.location a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+p {
+  font-size: 0.95rem;
+  color: #1c1b1b;
+  line-height: 1.6;
+}
+
+p:nth-of-type(1) {
+  font-weight: bold;
+  color: #131313;
+}
+
+.content {
+  display: flex;
+  flex-direction: gridbox;
+  gap: 20px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  gap: 50px; /* Space between grid items */
+  max-width: 1200px; /* Restrict maximum grid width */
+  margin: 0 auto; /* Center the grid */
+  padding: 10px; /* Add padding for spacing */
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px; /* Space between grid items */
+  justify-items: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+article {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center the image and text */
+  justify-content: center; /* Center content inside the article */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  max-width: 300px;
+  margin: 25px auto; /* Center the article horizontally */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+article:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transform: translateY(-2px) scale(1.1); /* Apply both translateY and scale effects */
+}
+
+img.profile-pic {
+  width: 225px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 15px; /* Adds space below the image */
+}
+
+
