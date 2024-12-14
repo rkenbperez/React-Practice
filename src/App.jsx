@@ -8,7 +8,7 @@ export default function App() {
   return (
     <>
     <Header />
-    <h1>Contacts</h1>
+    <h1 className='category'>CONTACTS</h1>
     <div className="content">
     <Contacts
     img="public/img/Elon.jpg"
@@ -35,7 +35,7 @@ export default function App() {
      location="New York, NY"
      />
     </div>
-    <h1>Places</h1>
+    <h1 className='category'>COUNTRIES</h1>
     <div className="country-content">
     <Travel 
      country="Japan"

@@ -34,6 +34,15 @@ h1 {
   line-height: 1.1;
 }
 
+.category {
+  font-size: 2em;
+  font-weight: 500;
+  color: #3c3c3c;
+  text-decoration: inherit;
+  margin-top:20px;
+  font-style: inherit;
+}
+
 header {
   background-color: #2A628F;
   color: white;
@@ -70,7 +79,7 @@ header {
 .window {
   width: 100%;
   height: max-content;
-  background-color: #99ccea;
+  background-color: #94cfff;
   padding: 20px;
   align-items: center;
   justify-content: center;
