@@ -8,14 +8,14 @@ export default function Contacts(info) {
             <div className="window">
                 <h2>{info.name}</h2>
                 <div className="number">
-                <img src="public/img/phone.png" alt="phone"></img>
-                <p>{info.number}</p>
+                    <img src="public/img/phone.png" alt="phone"></img>
+                    <p>{info.number}</p>
                 </div>
                 <div className="contact-info">
-                <div className="location">
-                <img className="marker" src="/img/marker.png" alt="marker" />
-                <span>{info.location}</span>
-                </div>
+                    <div className="location">
+                        <img className="marker" src="/img/marker.png" alt="marker" />
+                        <span>{info.location}</span>
+                    </div>
                 </div> 
             </div>
         </article>
