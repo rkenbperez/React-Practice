@@ -21,7 +21,7 @@ export default function App() {
     return (
       <div className="country-card">
         <Travel 
-        img={country.img} alt={country.name}
+        img={country.img} alt={country.country}
         name={country.name}
         description={country.description}
         wikipedia={country.wikipedia}

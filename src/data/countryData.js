@@ -1,6 +1,6 @@
 export default [
     {
-        country: "Japan",
+        name: "Japan",
         img: "/img/japan.jpg",
         description: "Japan is a country in East Asia, located in the Pacific Ocean. " +
             "It is the 47th-largest country by area, the most populous country " +
@@ -10,7 +10,7 @@ export default [
         wikipedia: "https://en.wikipedia.org/wiki/Japan"
     },
     {
-        country: "China",
+        name: "China",
         img: "/img/china.jpg",
         description: "China, officially the People's Republic of China (PRC), is a unitary sovereign state in East Asia. " +
             "Located on the eastern edge of Asia, it shares land borders with Pakistan to the west, " +
@@ -20,7 +20,7 @@ export default [
         wikipedia: "https://en.wikipedia.org/wiki/China"
     },
     {
-        country: "United States",
+        name: "United States",
         img: "/img/usa.png",
         description: "The United States of America, commonly known as " +
             "the United States (U.S.A.), is a federal republic consisting " +
@@ -28,21 +28,21 @@ export default [
         wikipedia: "https://en.wikipedia.org/wiki/United_States"
     },
     {
-        country: "Canada",
+        name: "Canada",
         img: "/img/canada.png",
         description: "Canada is an Ontario province in North America. It is the 28th-most extensive and the 22nd-most populous country in the world, " +
             "with a total area of 9,984,670 square kilometres (3,909,087 square miles).",
         wikipedia: "https://en.wikipedia.org/wiki/Canada"
     },
     {
-        country: "Australia",
+        name: "Australia",
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Sydney_Opera_House%2C_botanic_gardens_1.jpg/1280px-Sydney_Opera_House%2C_botanic_gardens_1.jpg",
         description: "Australia, officially the Commonwealth of Australia, is an island country in the South Pacific Ocean. " +
             "It comprises 26 states, a capital territory, and numerous dependencies.",
         wikipedia: "https://en.wikipedia.org/wiki/Australia"
     },
     {
-        country: "South Korea",
+        name: "South Korea",
         img: "https://avgtravels.com/au/wp-content/uploads/sites/4/1-25.jpg",
         description: "South Korea (formerly known as Korea, Democratic People's Republic of) is a South Asian country in East Asia. " +
             "It is the 14th-largest country in the world by area, the 27th-most populous, and the 21st-most populous metropolitan area.",
