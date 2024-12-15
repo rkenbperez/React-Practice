@@ -8,7 +8,7 @@ export default function Contacts(info) {
             <div className="window">
                 <h2>{info.name}</h2>
                 <div className="number">
-                    <img src="public/img/phone.png" alt="phone"></img>
+                    <img src="/img/phone.png" alt="phone"></img>
                     <p>{info.number}</p>
                 </div>
                 <div className="contact-info">
